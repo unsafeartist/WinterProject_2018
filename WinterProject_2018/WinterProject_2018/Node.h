@@ -1,3 +1,4 @@
+//Author Kamaljot Saini
 #ifndef NODE_
 #define NODE_
 
@@ -15,11 +16,11 @@ class Node
 	public:
 		Node();
 
-		Node(const Generic_Type input_item);
+		Node(const Generic_Type& input_item);
 
-		Node(const Generic_Type input_item, const Node<Generic_Type>* nodePtr_input);
+		Node(const Generic_Type& input_item, const Node<Generic_Type>* nodePtr_input);
 
-		void setItem(Generic_Type input);
+		void setItem(const Generic_Type& input);
 
 		void setNext(Node<Generic_Type>* input_ptr);
 

@@ -1,3 +1,4 @@
+//Author Kamaljot Saini
 #include "Node.h"
 
 template<class Generic_Type>
@@ -10,7 +11,7 @@ Node<Generic_Type>::Node()
 }
 
 template<class Generic_Type>
-Node<Generic_Type>::Node(const Generic_Type input_item)
+Node<Generic_Type>::Node(const Generic_Type& input_item)
 {
 	//Paramterized Constructor 1
 
@@ -23,7 +24,7 @@ Node<Generic_Type>::Node(const Generic_Type input_item)
 }
 
 template<class Generic_Type>
-Node<Generic_Type>::Node(const Generic_Type input_item, const Node<Generic_Type>* nodePtr_input)
+Node<Generic_Type>::Node(const Generic_Type& input_item, const Node<Generic_Type>* nodePtr_input)
 {
 	//Parameterized Constructor 2
 
@@ -36,7 +37,7 @@ Node<Generic_Type>::Node(const Generic_Type input_item, const Node<Generic_Type>
 }
 
 template<class Generic_Type>
-void Node<Generic_Type>::setItem(Generic_Type input)
+void Node<Generic_Type>::setItem(const Generic_Type& input)
 {
 	item = input;
 }
