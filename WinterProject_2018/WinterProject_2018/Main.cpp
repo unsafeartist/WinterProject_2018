@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <iomanip> //for "setw()"
+#include "Base_Classes.h"
 #include "Node.cpp"
 #include "Linked_List.cpp"
 using namespace std;
@@ -11,29 +12,16 @@ using namespace std;
 int main()
 {
 	//TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING 
+	person object1("Kamal is a HOE", "Janani", "Booty");
 
+	cout << object1.getName() << endl;
 
-	//Declare Local Variables
-	Node<string> number1;
-	Node<string> number2;
-	string string_test1, string_test2;
-	Linked_List<string> list;
-	
-
-	number1.setItem("Kamaljot");
-	number2.setItem("Saini");
-	cout << number1.getNext() << endl;
-	number1.setNext(&number2);
-	
-	cout << number1.getItem() << endl;
-	cout << number2.getItem() << endl;
-	cout << number1.getNext() << endl;
+	Linked_List<person> list;
 
 	cout << "LINKED LIST TESTING" << endl;
-	list.add("David");
-	list.add("Beckham");
-	list.add("Junior");
+	list.add(object1);
 	list.view_LinkedList();
+
 
 
 	system("PAUSE");

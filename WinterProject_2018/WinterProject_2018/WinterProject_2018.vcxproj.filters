@@ -24,9 +24,6 @@
     <ClCompile Include="Linked_List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Base_Classes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Node.h">
@@ -36,6 +33,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Base_Classes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="volunteer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
