@@ -18,6 +18,10 @@ public:
 	void setGender(std::string newdietitem);
 	void setDietPref(std::string newiden);
 
+	bool operator ==(const person & other) const;
+	bool operator > (const person & other) const;
+	bool operator < (const person & other) const;
+
 	std::string getName() const;
 	std::string getGender() const;
 	std::string getdietPref() const;
@@ -55,6 +59,21 @@ std::string person::getGender() const {
 
 std::string person::getdietPref() const {
 	return dietPref;
+}
+
+// compares the name of two perosn objects and returns true if it
+bool person::operator < (const person & other) const {
+	return this->name < other.name;
+	return this->name < other.name;
+}
+// the inverse of the one above
+bool person::operator > (const person & other) const {
+	return this->name > other.name;
+	return this->name > other.name;
+}
+// return true if the names match
+bool person::operator ==(const person & other) const {
+	return ((this->name == other.name) && (this->gender == other.name));
 }
 
 std::ostream& operator << (std::ostream& out, const person &outputObject) {
