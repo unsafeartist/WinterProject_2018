@@ -4,36 +4,27 @@
 #include <iostream>
 #include <string>
 #include <iomanip> //for "setw()"
+#include "Person.h"
 #include "Node.cpp"
-#include "Linked_List.cpp"
+#include "Linked_List.h"
+
 using namespace std;
 
 int main()
 {
 	//TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING 
+	person object1("Kamal", "Male", "Non-Veg");
+	person object2("Anmol", "Male", "Veg");
+	Linked_List<person> person_list;
 
+	person_list.add(object1);
+	person_list.add(object2);
 
-	//Declare Local Variables
-	Node<string> number1;
-	Node<string> number2;
-	string string_test1, string_test2;
-	Linked_List<string> list;
-	
+	person_list.view_LinkedList();
 
-	number1.setItem("Kamaljot");
-	number2.setItem("Saini");
-	cout << number1.getNext() << endl;
-	number1.setNext(&number2);
-	
-	cout << number1.getItem() << endl;
-	cout << number2.getItem() << endl;
-	cout << number1.getNext() << endl;
+	cout << object2.getName() << endl;
 
 	cout << "LINKED LIST TESTING" << endl;
-	list.add("David");
-	list.add("Beckham");
-	list.add("Junior");
-	list.view_LinkedList();
 
 
 	system("PAUSE");
