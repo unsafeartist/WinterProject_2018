@@ -70,12 +70,15 @@ bool Linked_List<Item_Type>::add(const Item_Type& new_item)
 	//allocated node
 	Node<Item_Type>* ptr_newNode = new Node<Item_Type>();
 
-	//Add new item to the new Node
-	ptr_newNode->setItem(new_item);
+	//Set up the new node to be inserted into Linked List
+	{
+		//Add new item to the new Node
+		ptr_newNode->setItem(new_item);
 
-	//Set the pointer in node to the beginning of the Linked List
-	ptr_newNode->setNext(headPtr);
-
+		//Set the pointer in node to the beginning of the Linked List
+		ptr_newNode->setNext(headPtr);
+	}
+	
 	//HeadPtr now points to the new node
 	headPtr = ptr_newNode;
 
