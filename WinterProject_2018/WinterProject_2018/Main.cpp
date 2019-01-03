@@ -25,7 +25,13 @@ int main()
 
 	person_list.view_LinkedList();
 
-	
+	person_list.remove(object2);
+
+	cout << endl << endl << "AFTER REMOVAL:" << endl;
+	person_list.view_LinkedList();
+
+	cout << endl << endl << "AFTER CLEAR: " << endl;
+	person_list.clear();
 
 
 	system("PAUSE");

@@ -73,7 +73,7 @@ bool person::operator > (const person & other) const {
 }
 // return true if the names match
 bool person::operator ==(const person & other) const {
-	return ((this->name == other.name) && (this->gender == other.name));
+	return ((this->name == other.name) && (this->gender == other.gender) && (this->dietPref == other.dietPref));
 }
 
 std::ostream& operator << (std::ostream& out, const person &outputObject) {
