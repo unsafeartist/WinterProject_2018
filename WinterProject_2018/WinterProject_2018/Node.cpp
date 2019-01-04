@@ -11,6 +11,11 @@ Node<Generic_Type>::Node()
 }
 
 template<class Generic_Type>
+Node<Generic_Type>::Node(const int)
+{
+}
+
+template<class Generic_Type>
 Node<Generic_Type>::Node(const Generic_Type& input_item)
 {
 	//Paramterized Constructor 1
