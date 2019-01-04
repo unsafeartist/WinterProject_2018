@@ -4,16 +4,21 @@
 #include <iostream>
 #include <string>
 #include <iomanip> //for "setw()"
+#include "Person.h"
 #include "Node.cpp"
-#include "Linked_List.cpp"
+#include "Linked_List.h"
+#include "Person_IO.h"
 using namespace std;
 
 int main()
 {
 	//TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING 
-
+	Linked_List<person> inputList;
+	inputPerson("Person.txt", inputList);
+	inputList.view_LinkedList();
 
 	//Declare Local Variables
+	/*
 	Node<string> number1;
 	Node<string> number2;
 	string string_test1, string_test2;
@@ -34,7 +39,7 @@ int main()
 	list.add("Beckham");
 	list.add("Junior");
 	list.view_LinkedList();
-
+	*/
 
 	system("PAUSE");
 	return 0;
