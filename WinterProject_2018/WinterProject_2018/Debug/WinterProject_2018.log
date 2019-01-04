@@ -1,5 +1,6 @@
-﻿  Main.cpp
+﻿  commitee.cpp
+  Main.cpp
   Node.cpp
   Generating Code...
-c:\users\kamal\source\repos\unsafeartist\winterproject_2018\winterproject_2018\winterproject_2018\linked_list.h(235): warning C4715: 'Linked_List<person>::getEntry': not all control paths return a value
+  LINK : C:\Users\kamal\Source\Repos\unsafeartist\WinterProject_2018\WinterProject_2018\Debug\WinterProject_2018.exe not found or not built by the last incremental link; performing full link
   WinterProject_2018.vcxproj -> C:\Users\kamal\Source\Repos\unsafeartist\WinterProject_2018\WinterProject_2018\Debug\WinterProject_2018.exe

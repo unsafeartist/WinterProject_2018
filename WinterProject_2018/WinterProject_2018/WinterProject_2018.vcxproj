@@ -125,6 +125,7 @@
     <ClInclude Include="Linked_List.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Person_IO.h" />
     <ClInclude Include="teamMember.h" />
     <ClInclude Include="volunteer.h" />
   </ItemGroup>
