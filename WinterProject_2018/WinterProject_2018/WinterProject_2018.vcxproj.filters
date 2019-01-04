@@ -21,9 +21,6 @@
     <ClCompile Include="Node.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linked_List.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Node.h">
@@ -32,11 +29,11 @@
     <ClInclude Include="Linked_List.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Base_Classes.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="volunteer.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

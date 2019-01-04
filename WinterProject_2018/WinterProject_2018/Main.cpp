@@ -4,24 +4,27 @@
 #include <iostream>
 #include <string>
 #include <iomanip> //for "setw()"
-#include "Base_Classes.h"
+#include "Person.h"
 #include "Node.cpp"
-#include "Linked_List.cpp"
+#include "Linked_List.h"
+
 using namespace std;
 
 int main()
 {
 	//TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING 
-	person object1("Kamal is a HOE", "Janani", "Booty");
+	person object1("Kamal", "Male", "Non-Veg");
+	person object2("Anmol", "Male", "Veg");
+	Linked_List<person> person_list;
 
-	cout << object1.getName() << endl;
+	person_list.add(object1);
+	person_list.add(object2);
 
-	Linked_List<person> list;
+	person_list.view_LinkedList();
+
+	cout << object2.getName() << endl;
 
 	cout << "LINKED LIST TESTING" << endl;
-	list.add(object1);
-	list.view_LinkedList();
-
 
 
 	system("PAUSE");
