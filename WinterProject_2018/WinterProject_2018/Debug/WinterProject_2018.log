@@ -1,23 +1,2 @@
 ﻿  Main.cpp
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(43): error C2365: 'person::dietPref': redefinition; previous definition was 'data member'
-  c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(16): note: see declaration of 'person::dietPref'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(44): error C2059: syntax error: 'return'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(44): error C2238: unexpected token(s) preceding ';'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(46): error C2059: syntax error: '}'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(46): error C2143: syntax error: missing ';' before '}'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(53): error C2511: 'void person::getGender(std::string)': overloaded member function not found in 'person'
-  c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(11): note: see declaration of 'person'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(54): error C2597: illegal reference to non-static member 'person::gender'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(59): error C2819: type 'person' does not have an overloaded member 'operator ->'
-  c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(11): note: see declaration of 'person'
-  c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(59): note: did you intend to use '.' instead?
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(59): error C2232: '->person::name': left operand has 'class' type, use '.'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(63): error C2819: type 'person' does not have an overloaded member 'operator ->'
-  c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(11): note: see declaration of 'person'
-  c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(63): note: did you intend to use '.' instead?
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(63): error C2232: '->person::name': left operand has 'class' type, use '.'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(67): error C2819: type 'person' does not have an overloaded member 'operator ->'
-  c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(11): note: see declaration of 'person'
-  c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(67): note: did you intend to use '.' instead?
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(67): error C2232: '->person::name': left operand has 'class' type, use '.'
-c:\users\gurjot sandhu\source\repos\winterproject_2018\winterproject_2018\winterproject_2018\base_classes.h(69): error C2143: syntax error: missing ';' before '}'
+  WinterProject_2018.vcxproj -> C:\Users\kamal\Source\Repos\unsafeartist\WinterProject_2018\WinterProject_2018\Debug\WinterProject_2018.exe
