@@ -122,7 +122,11 @@
     <ClInclude Include="Linked_List.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Person_IO.h" />
     <ClInclude Include="volunteer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Person.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

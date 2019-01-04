@@ -4,8 +4,9 @@
 #include <iostream>
 #include <string>
 #include <iomanip> //for "setw()"
+#include "Person.h"
 #include "Node.cpp"
-#include "Linked_List.cpp"
+#include "Linked_List.h"
 #include "Person_IO.h"
 using namespace std;
 
@@ -38,8 +39,8 @@ int main()
 	list.add("Beckham");
 	list.add("Junior");
 	list.view_LinkedList();
+	*/
 
-
-	system("PAUSE");*/
+	system("PAUSE");
 	return 0;
 }
