@@ -18,6 +18,7 @@ int main()
 	person object2("Anmol", "Male", "Veg.");
 	person object3("Gurjot", "Male", "Vegan");
 	Linked_List<person> person_list;
+	person getObjectTester;
 
 	person_list.add(object1);
 	person_list.add(object2);
@@ -30,8 +31,14 @@ int main()
 	cout << endl << endl << "AFTER REMOVAL:" << endl;
 	person_list.view_LinkedList();
 
+	getObjectTester = person_list.getEntry(object3);
+	cout << endl << endl << "getObjectTester Below: " << endl;
+	cout << getObjectTester << endl;
+
 	cout << endl << endl << "AFTER CLEAR: " << endl;
 	person_list.clear();
+
+
 
 
 	system("PAUSE");

@@ -24,6 +24,7 @@ class Linked_List
 		bool contains(const Item_Type& item_toRemove);
 		bool add(const Item_Type& new_item);
 		bool remove(const Item_Type& item_toDelete);
+		Item_Type getEntry(const Item_Type& item_toFind);
 		
 		void clear();
 		virtual ~Linked_List();
@@ -209,6 +210,27 @@ void Linked_List<Item_Type>::view_LinkedList()
 
 		//move to the next node
 		traverse_ptr = traverse_ptr->getNext();
+	}
+}
+
+template<class Item_Type>
+Item_Type Linked_List<Item_Type>::getEntry(const Item_Type& item_toFind)
+{
+	//For Person Class this means searching by name only
+
+	//This function searches linked list and returns the
+	Node<Item_Type>* traversal_Ptr = headPtr;
+
+	//Check to see if the Linked List contains it
+	if (contains(item_toFind))
+	{
+		//As long as the Linked_List has data,
+		//traverse through it
+		while (traversal_Ptr != nullptr)
+		{
+			if (traversal_Ptr->getItem() == item_toFind)
+				return traversal_Ptr->getItem();
+		}
 	}
 }
 
